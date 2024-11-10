@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home - Travel Agency Website</title>
+   <link rel="icon" type="image/x-icon" href="favicon.png">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="header">
+   <a href="index.html" class="logo">Safitravels.</a>
+   <nav class="navbar">
+      <a href="index.html">Home</a>
+      <a href="package.html">Package</a>
+      <a href="book.html">Book</a>
+      <a href="about.html">About</a>
+   </nav>
+
+   <div class="dropdown">
+      <div onclick="myFunction()" class="dropbtn fas fa-bars">Dropdown</div>
+      <div id="myDropdown" class="dropdown-content">
+         <a href="index.html">Home</a>
+         <a href="package.html">Package</a>
+         <a href="book.html">Book</a>
+         <a href="about.html">About</a>
+      </div>
+    </div>
+    
+
+</section>
+
+<img src="cover.jpeg" alt="Travel agency cover image showcasing beautiful destinations" style="display: flex; height: 100%; width: 100%;">
+<img src="home-slide-1.jpg" alt="Beautiful landscape for travel destination 1" style="display: flex; height: 650px; width: 100%;">
+<img src="home-slide-2.jpg" alt="Scenic view for travel destination 2" style="display: flex; height: 650px; width: 100%;">
+<img src="home-slide-3.jpg" alt="Picturesque location for travel destination 3" style="display: flex; height: 650px; width: 100%;">
+
+<section class="home">
+   <div class="swiper home-slider">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide" style="background:url(home-slide-1.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>travel around the world</h3>
+               <a href="package.html" class="btn">discover more</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide" style="background:url(home-slide-2.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>discover new places</h3>
+               <a href="package.html" class="btn">discover more</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide" style="background:url(home-slide-3.jpg) no-repeat">
+            <div class="content">
+               <span>explore, discover, travel</span>
+               <h3>make your tour worthwhile</h3>
+               <a href="package.html" class="btn">discover more</a>
+            </div>
+         </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+   </div>
+</section>
+
+<section class="services">
+   <h1 class="heading-title"> our services </h1>
+   <div class="box-container">
+      <div class="box">
+         <img src="icon-1.png" alt="Adventure service icon">
+         <h3>adventure</h3>
+      </div>
+      <div class="box">
+         <img src="icon-2.png" alt="Tour guide service icon">
+         <h3>tour guide</h3>
+      </div>
+      <div class="box">
+         <img src="icon-3.png" alt="Trekking service icon">
+         <h3>trekking</h3>
+      </div>
+      <div class="box">
+         <img src="icon-4.png" alt="Campfire service icon">
+         <h3>camp fire</h3>
+      </div>
+      <div class="box">
+         <img src="icon-5.png" alt="Off-road service icon">
+         <h3>off road</h3>
+      </div>
+      <div class="box">
+         <img src="icon-6.png" alt="Camping service icon">
+         <h3>camping</h3>
+      </div>
+   </div>
+</section>
+
+<section class="home-about">
+   <div class="image">
+      <img src="about-img.jpg" alt="Team of travel agency professionals">
+   </div>
+   <div class="content">
+      <h3>about us</h3>
+      <p>Welcome to our vibrant world of travel and exploration! At Travel., we are passionate about crafting unforgettable journeys that unveil the beauty of diverse destinations. With a commitment to excellence, we invite you to embark on a personalized adventure, where each moment is a story waiting to be discovered.</p>
+      <a href="about.html" class="btn">read more</a>
+   </div>
+</section>
+
+<section class="home-packages">
+   <h1 class="heading-title"> our packages </h1>
+   <div class="box-container">
+      <div class="box">
+         <div class="image">
+            <img src="pakistan.jpeg" alt="Beautiful landscape of Pakistan">
+         </div>
+         <div class="content">
+            <h3>Pakistan</h3>
+            <p>"Journey with us, where every moment becomes an unforgettable adventure."</p>
+            <a href="book.html" class="btn">book now</a>
+         </div>
+      </div>
+      <div class="box">
+         <div class="image">
+            <img src="img-2.jpg" alt="Breathtaking scenery in Switzerland">
+         </div>
+         <div class="content">
+            <h3>Switzerland</h3>
+            <p>"Journey with us, where every moment becomes an unforgettable adventure."</p>
+            <a href="book.html" class="btn">book now</a>
+         </div>
+      </div>
+      <div class="box">
+         <div class="image">
+            <img src="img-3.jpg" alt="Captivating view in Latvia">
+         </div>
+         <div class="content">
+            <h3>Latvia</h3>
+            <p>"Journey with us, where every moment becomes an unforgettable adventure."</p>
+            <a href="book.html" class="btn">book now</a>
+         </div>
+      </div>
+   </div>
+   <div class="load-more"> <a href="package.html" class="btn">load more</a> </div>
+</section>
+
+<section class="home-offer">
+   <div class="content">
+      <h3>up to 50% off</h3>
+      <a href="book.html" class="btn">book now</a>
+   </div>
+</section>
+
+<section class="footer">
+   <div class="box-container">
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="index.html"> <i class="fas fa-angle-right"></i> Home</a>
+         <a href="package.html"> <i class="fas fa-angle-right"></i> Package</a>
+         <a href="book.html"> <i class="fas fa-angle-right"></i> Book</a>
+         <a href="about.html"> <i class="fas fa-angle-right"></i> About</a>
+      </div>
+      <div class="box">
+         <h3>contact info</h3>
+         <a href="#"> <i class="fas fa-phone"></i> +92-123456789 </a>
+         <a href="#"> <i class="fas fa-phone"></i> +92-123456789 </a>
+         <a href="#"> <i class="fas fa-envelope"></i> support@travelagency.com </a>
+         <a href="#"> <i class="fas fa-map"></i> Islamabad, Pakistan - 46000 </a>
+      </div>
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> Twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> Instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> LinkedIn </a>
+      </div>
+   </div>
+   <div class="credit"> created by <span>Safiullah  </span> | all rights reserved! </div>
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+<script>
+  function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
